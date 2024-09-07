@@ -4,11 +4,8 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/content",
-    "@nuxt/eslint",
-    "@nuxt/fonts",
-    "@nuxt/image",
     "@nuxt/ui",
-    "@nuxthq/studio", // Commenting this line out will fix the build
+    "@nuxthq/studio", // Commenting this line out will fix
     "nuxt-og-image",
   ],
 
